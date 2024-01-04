@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-page Builder</title>
+    <style>
+        .card {
+            display: flex;
+            border: 2px solid black;
+            width: 900px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding: 12px;
+        }
+        .image img{
+            width: 200px;
+
+        }
+        .text h1,p{
+            padding: 2px 0;
+        }
+        .image{
+            position: relative;
+        }
+        .image .capsule{
+            position: absolute;
+            bottom: 4px;
+            z-index: 10;
+            right: 5px;
+            background: black;
+            opacity: 0.9;
+            color: white;
+            padding: 3px;
+            border-radius: 3px;
+            font-size:14px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg"
+                    alt="">
+                    <div class="capsule">31:06</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to Javascript | JS - Programming#2</h1>
+                <p>Engineer_Aakash . 727k views . 2 Months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
