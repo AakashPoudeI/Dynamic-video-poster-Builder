@@ -23,5 +23,6 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail){
 document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML +html
 }
 
+
 // To run copy paste the below in your browser console
 //createCard("Introduction to Backend | JS - Programming #2", "Engineer_Aakash", 560000, 7, "13:22", "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg")
